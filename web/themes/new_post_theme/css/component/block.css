@@ -1,0 +1,171 @@
+
+.field.field--name-field-post.field--type-entity-reference-revisions.field--label-hidden.field__items {
+    position: relative;
+}
+
+.field.field--name-field-post-2.field--type-entity-reference-revisions.field--label-hidden.field__items {
+    position: relative;
+}
+
+.paragraph--type--post-text {
+    width: 92%;
+    margin-left: 4%;
+    padding: 54px 57px 54px 57px;
+    border-radius: 31px 34px 30px 30px;
+    box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+    /* height: 412px; */
+    height: auto;
+}
+
+.paragraph.paragraph--type--post-text {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    background-color: white;
+    display: flex;
+flex-direction: column
+}
+
+.field.field--name-field-lable-text.field--type-string.field--label-hidden.field__item {
+    font-family: 'roboto-regular';
+    color: #274C5B;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.field.field--name-field-lable-text.field--type-string.field--label-hidden.field__item::before {
+    content: url("../../images/Vector.svg");
+    display: inline-block;
+    width: 18px;
+    height: 20px;
+    margin-right: 8px;
+        }
+
+.field.field--name-field-heading-text.field--type-string.field--label-hidden.field__item {
+    font-family: 'roboto-bold';
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.field.field--name-field-description-text.field--type-string-long.field--label-hidden.field__item {
+    font-family: 'open_sans';
+    color: #274C5B;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    order: 1;
+}
+
+.field.field--name-field-link.field--type-link.field--label-hidden.field__item a {
+    font-family: 'roboto-bold';
+    color: #274C5B;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-decoration: none;
+    position: relative;
+    top: 20px;
+}
+
+.field.field--name-field-link.field--type-link.field--label-hidden.field__item {
+    order: 2;
+}
+
+.field.field--name-field-link.field--type-link.field--label-hidden.field__item a::after {
+    content: url("../../images/Aerrow.svg");
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.field--name-field-link {
+    position: absolute; 
+    bottom: 50px;
+    }
+
+.field--name-field-message {
+    position: absolute;
+    display: none;
+    background-image: url("../../images/Rectangle.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 44px;
+    bottom: -115px;
+    position: absolute;
+    width: 340px;
+    height: 114px;
+    color: rgb(39, 76, 91);
+    font-family: 'roboto-regular';
+    font-size: 23px;
+    font-weight: 300;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-align: left;
+    z-index: 20;
+    padding: 20px;
+}
+
+@media only screen and (min-width: 700px) {
+    .field.field--type-image.field--label-hidden.field__item {
+        width: 100%;
+    }
+
+    .field--name-field-mobile-image {
+        display: none;
+    }
+
+    .paragraph.paragraph--type--multi-post.paragraph--view-mode--default {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
+
+    .field--name-field-desktop-image img {
+        border-radius: 30px;
+    }
+}
+
+@media only screen and (max-width: 699px) {
+    .field.field--type-image.field--label-hidden.field__item {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .field--name-field-desktop-image {
+        display: none;
+    }
+
+    .field--name-field-mobile-image img {
+        border-radius: 20px;
+    }
+
+        .paragraph.paragraph--type--post-text.paragraph--view-mode--default {
+        padding: 34px 37px 57px 37px;
+        border-radius: 21px 20px 20px 20px;
+    }
+      
+    .paragraph.paragraph--type--post-text {
+        top: 150px;
+    }
+                 
+    .field--name-field-message {
+        width: 293px;
+        height: 98px;
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 699px) {
+    .field--name-field-message {
+        left: 49px;
+        bottom: -87px;
+        width: 231px;
+        height: 77px;
+        font-size: 17px;
+        padding: 13px;}
+}

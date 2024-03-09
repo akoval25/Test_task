@@ -1,0 +1,29 @@
+
+/**
+ * @file
+ * Base Fonts.
+ */
+
+@font-face {
+    font-family: 'roboto-bold';
+    src: url("../../fonts/Roboto/Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'roboto-regular';
+    src: url("../../fonts/Roboto/roboto-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url("../../fonts/Open_Sans/opensans-regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

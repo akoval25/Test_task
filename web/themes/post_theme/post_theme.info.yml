@@ -1,0 +1,11 @@
+name: Роst theme
+type: theme
+description: "The best theme."
+core_version_requirement: ^9 || ^10.2.3
+libraries:
+  - my_theme_name/global-styling
+base theme: classy
+regions:
+  header: Header
+  content: Content
+  footer: Footer
